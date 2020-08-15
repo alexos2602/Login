@@ -11,7 +11,7 @@
     <style>
         
         body{
-            background-image: url(image/bg2.jpeg);
+            background-image: url(image/pollo-1.jpg);
         }
         
         .welcome{
@@ -57,7 +57,7 @@
 <body>
    
    <div class="welcome">
-       <img src="image/logo_magtimus.png" >
+       <img src="image/animal.png" >
         <h1>Bienvenido, has logrado iniciar sesion</h1>
         <a href="cerrar.php">Cerrar sesion</a>
    </div>

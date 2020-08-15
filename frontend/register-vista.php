@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login / Register Magtimus</title>
+    <title>Registro</title>
     
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    
     
     <link rel="stylesheet" href="icon/style.css">
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
-    
+
+<div class="container"> 
 <div class="container-form">
         <div class="header">
             <div class="logo-title">
-                <img src="image/logo_magtimus.png" alt="">
-                <h2>Magtimus</h2>
+                <img src="image/animal.png" alt="">
+                <h2>SuperPollo</h2>
             </div>
             <div class="menu">
                 <a href="login.php"><li class="module-login">Login</li></a>
@@ -26,7 +26,7 @@
         </div>
         
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="form">
-            <div class="welcome-form"><h1>Bienvenido</h1><h2>Magtimus</h2></div>
+            <div class="welcome-form"><h1>Bienvenido</h1><h2>SuperPollo</h2></div>
             
             <div class="user line-input">
                 <label class="lnr lnr-envelope"></label>
@@ -54,6 +54,7 @@
             <button type="submit">Registrarse<label class="lnr lnr-chevron-right"></label></button>
                
     </form>
+    </div>
     </div>
 
     

@@ -7,22 +7,25 @@
 }
 
 body{
-    background-image: url(../image/bg5.jpg);
+    background-image: url(../image/pollo-1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
 }
 
 .container-form{
     width: 100%;
     max-width: 700px;
     background: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: max-content;
     padding-bottom: 50px;
     overflow: hidden;
+    margin: 3% 0 0 0;
 }
 
 .header{
@@ -68,7 +71,7 @@ body{
 }
 
 .line-li{
-    border-bottom: 4px solid #5584FF;
+    border-bottom: 4px solid #daa439;
 }
 
 .menu li:hover{
@@ -104,7 +107,7 @@ a{
     margin-left: 10px;
     margin-top: -4px;
     font-weight: bold;
-    color: #5584FF;
+    color: #daa439;
 }
 
 .line-input{
@@ -118,7 +121,7 @@ a{
 }
 
 .border-input{
-    border-bottom: 1px solid #5584FF;
+    border-bottom: 1px solid #daa439;
 }
 
 .line-input input{
@@ -134,7 +137,7 @@ a{
     font-size: 20px;
     position: relative;
     top: -4px;
-    color: #0076ff;
+    color: #daa439;
 }
 
 .form button{
@@ -144,7 +147,7 @@ a{
     margin: auto;
     margin-top: 50px;
     color: white;
-    background: #5584FF;
+    background: #daa439;
     border-style: none;
     outline: 0px;
     border-radius: 50px;
@@ -177,7 +180,7 @@ a{
 
 
 .active{
-    border-bottom: 4px solid #5584FF;
+    border-bottom: 4px solid #daa439;
 }
 
 
@@ -213,7 +216,13 @@ a{
             background: white;
         }
 
+/*Medias querys*/
 
+@media screen and (max-width: 400px){
+    .logo-title h2{
+        display: none;
+    }
+}
 
 
 
