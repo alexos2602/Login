@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-
+/*-------------------Formularios--------------*/
 .container{
     display: flex;
     justify-content: center;
@@ -83,7 +83,7 @@ a{
     color: white;
 }
 
-/*formulario Login*/
+/*----------------formulario Login-------------*/
 
 
 .form{
@@ -183,40 +183,45 @@ a{
     border-bottom: 4px solid #daa439;
 }
 
-
-/*Principal*/
-
+/*----------------Principal----------------*/
 
 .welcome{
-            width: 100%;
-            max-width: 600px;
-            margin: auto;
-            margin-top: 100px;
-            background: rgba(0,0,0,0.6);
-            text-align: center;
-            padding: 20px;
-        }
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 20px;
+}
 
-        .welcome h1{
-            font-size: 50px;
-            color: white;
-            font-weight: 100;
-        }
-        
-        .welcome a{
-            display: block;
-            margin-top: 40px;
-            font-size: 20px;
-            padding: 10px;
-            border: 1px solid white;
-        }
-        
-        .welcome a:hover{
-            color: black;
-            background: white;
-        }
+.welcome img{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
 
-/*Medias querys*/
+.welcome h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.welcome a{
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.welcome a:hover{
+    color: black;
+    background: white;
+}
+
+/*----------------------Medias querys------------------*/
 
 @media screen and (max-width: 400px){
     .logo-title h2{
