@@ -13,7 +13,7 @@
 <body>
    
    <div class="welcome">
-       <img src="image/animal.png" >
+       <img src="image/Gallina.gif" >
         <h1>Bienvenido, has logrado iniciar sesion</h1>
         <a href="cerrar.php">Cerrar sesion</a>
    </div>
