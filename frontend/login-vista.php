@@ -8,7 +8,8 @@
     
     <link rel="stylesheet" href="icon/style.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="icon" href="image/animal.png">
+
 </head>
 <body>
 
@@ -25,6 +26,8 @@
             </div>
         </div>
         
+        <!-- $_SERVER["PHP_SELF"] Variable global que retorna los datos a la pagina actual-->
+        <!-- htmlspecialchars convierte caracters especiales a HTML entities -->
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="form">
             <div class="welcome-form"><h1>Bienvenido</h1><h2>SuperPollo</h2></div>
             <div class="user line-input">
@@ -36,6 +39,7 @@
                 <input type="password" placeholder="Contraseña" name="clave">
             </div>
             
+            <!-- Mensaje de error -->
              <?php if(!empty($error)): ?>
             <div class="mensaje">
                 <?php echo $error; ?>

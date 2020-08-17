@@ -8,7 +8,8 @@
     
     <link rel="stylesheet" href="icon/style.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="icon" href="image/animal.png">
+
 </head>
 <body>
 
