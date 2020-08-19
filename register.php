@@ -29,11 +29,11 @@
             
                         
             if ($resultado != false){
-                $error .= '<i>Este usuario ya existe</i>';
+                $error .= '<i>Este usuario ya existe.</i>';
             }
             
-            if ($clave != $clave2){
-                $error .= '<i> Las contraseñas no coinciden</i>';
+            if ($clave != $clave2 or $clave == '' and $clave2 == ''){
+                $error .= '<i> Las contraseñas no coinciden o están vacías.</i>';
             }
             
             
